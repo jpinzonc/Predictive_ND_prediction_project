@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="Field1" />
+            <Field name="Field3" />
+            <Field name="Field7" />
+            <Field name="Field9" />
+            <Field name="Field4" />
+            <Field name="Field6" />
+            <Field name="Field99" />
+          </Fields>
+          <Data>
+            <r>
+              <c>a</c>
+              <c>c</c>
+              <c>g</c>
+              <c>i</c>
+              <c>d</c>
+              <c>6</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>a</c>
+              <c>c</c>
+              <c>g</c>
+              <c>Not a Join</c>
+              <c>d</c>
+              <c>6</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>a</c>
+              <c>c</c>
+              <c>g</c>
+              <c>i</c>
+              <c>d</c>
+              <c>6</c>
+              <c>3</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" size="1" source="TextInput:" type="String" />
+            <Field name="Field3" size="1" source="TextInput:" type="String" />
+            <Field name="Field7" size="1" source="TextInput:" type="String" />
+            <Field name="Field9" size="10" source="TextInput:" type="V_String" />
+            <Field name="Field4" size="1" source="TextInput:" type="String" />
+            <Field name="Field6" source="TextInput:" type="Byte" />
+            <Field name="Field99" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Field1" />
+            <Field name="Field2" />
+            <Field name="Field3" />
+            <Field name="Field4" />
+            <Field name="Field5" />
+            <Field name="Field6" />
+            <Field name="Field7" />
+            <Field name="Field8" />
+            <Field name="Field9" />
+          </Fields>
+          <Data>
+            <r>
+              <c>a</c>
+              <c>e</c>
+              <c>c</c>
+              <c>d</c>
+              <c>e</c>
+              <c>Field6</c>
+              <c>g</c>
+              <c>h</c>
+              <c>i</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" size="1" source="TextInput:" type="String" />
+            <Field name="Field2" size="1" source="TextInput:" type="String" />
+            <Field name="Field3" size="1" source="TextInput:" type="String" />
+            <Field name="Field4" size="1" source="TextInput:" type="String" />
+            <Field name="Field5" size="1" source="TextInput:" type="String" />
+            <Field name="Field6" size="6" source="TextInput:" type="String" />
+            <Field name="Field7" size="1" source="TextInput:" type="String" />
+            <Field name="Field8" size="1" source="TextInput:" type="String" />
+            <Field name="Field9" size="1" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="318" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output28">
+          <RecordInfo>
+            <Field name="Name" size="6" source="FieldInfo" type="V_String" />
+            <Field name="Type" size="6" source="FieldInfo" type="String" />
+            <Field name="Right_Type" size="6" source="FieldInfo" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Name" order="" />
+            <Field field="Type" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output20">
+          <RecordInfo>
+            <Field name="Field1" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field2" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field3" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field4" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field5" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field6" size="6" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field7" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field8" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field9" size="1" source="TextInput: (BatchMacro)" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="Field1" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field2" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field3" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field4" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field5" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field6" size="6" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field7" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field8" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field9" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Right_Field1" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Right_Field3" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Right_Field7" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Right_Field9" size="10" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Right_Field4" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Right_Field6" source="TextInput: (BatchMacro)" type="Byte" />
+            <Field name="Field99" source="TextInput: (BatchMacro)" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output27">
+          <RecordInfo>
+            <Field name="Field1" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field3" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field7" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field9" size="10" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field4" size="1" source="TextInput: (BatchMacro)" type="String" />
+            <Field name="Field6" source="TextInput: (BatchMacro)" type="Byte" />
+            <Field name="Field99" source="TextInput: (BatchMacro)" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Macro1.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="618" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2976_80f9e3e8ea10433db55a6ecf50774eba_\Engine_5728_779f6d8df2d146a3b6e473771e0792d0_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="618" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2976_80f9e3e8ea10433db55a6ecf50774eba_\Engine_5728_e87ffaea316e420a95c384e4c9ac943b_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="486" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2976_80f9e3e8ea10433db55a6ecf50774eba_\Engine_5728_51d56c80ef794c7d85bc9c495bcbec21_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\ProgramData\Alteryx\Engine\Engine_2976_80f9e3e8ea10433db55a6ecf50774eba_\Engine_5728_8333f1e63a894d919517f46a6b353a11_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" size="1" source="TextInput:" type="String" />
+            <Field name="Field2" size="1" source="TextInput:" type="String" />
+            <Field name="Field3" size="1" source="TextInput:" type="String" />
+            <Field name="Field4" size="1" source="TextInput:" type="String" />
+            <Field name="Field5" size="1" source="TextInput:" type="String" />
+            <Field name="Field6" size="6" source="TextInput:" type="String" />
+            <Field name="Field7" size="1" source="TextInput:" type="String" />
+            <Field name="Field8" size="1" source="TextInput:" type="String" />
+            <Field name="Field9" size="1" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Field9" selected="True" type="String" size="10" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" size="1" source="TextInput:" type="String" />
+            <Field name="Field3" size="1" source="TextInput:" type="String" />
+            <Field name="Field7" size="1" source="TextInput:" type="String" />
+            <Field name="Field9" size="10" source="TextInput:" type="String" />
+            <Field name="Field4" size="1" source="TextInput:" type="String" />
+            <Field name="Field6" source="TextInput:" type="Byte" />
+            <Field name="Field99" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output20" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output27" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output28" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="3" Connection="Input17" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="3" Connection="Input18" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>WrapperWorkflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
